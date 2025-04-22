@@ -12,4 +12,4 @@ Each row contains:
     duration (fixation time)
 Output: fixations_all_cleaned.csv
 
-eye_metrics.py performs all computations on the cleaned dataset, including: Creating fixation maps (800×600 resolution), Computing entropy of fixation distributions per image, Dividing the image into a spatial grid (e.g., 6×6) to count unique ROIs visited, Averaging both metrics per participant
+**eye_metrics.py** performs all computations on the cleaned dataset, including: Creating fixation maps (800×600 resolution), Computing entropy of fixation distributions per image, Dividing the image into a spatial grid (e.g., 6×6) to count unique ROIs visited, Averaging both metrics per participant
